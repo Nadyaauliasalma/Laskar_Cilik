@@ -1,0 +1,202 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PerkembanganApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Perkembangan": {
+      "get": {
+        "tags": [
+          "Perkembangan"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReportData"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReportData"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ReportData"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Perkembangan/{id}": {
+      "get": {
+        "tags": [
+          "Perkembangan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReportData"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReportData"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReportData"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ReportData": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "namaSiswa": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomorInduk": {
+            "type": "string",
+            "nullable": true
+          },
+          "kelas": {
+            "type": "string",
+            "nullable": true
+          },
+          "semester": {
+            "type": "string",
+            "nullable": true
+          },
+          "tahunAjaran": {
+            "type": "string",
+            "nullable": true
+          },
+          "nilaiAgama": {
+            "type": "string",
+            "nullable": true
+          },
+          "jatiDiri": {
+            "type": "string",
+            "nullable": true
+          },
+          "literasiMatematika": {
+            "type": "string",
+            "nullable": true
+          },
+          "sainsTeknologiRekayasa": {
+            "type": "string",
+            "nullable": true
+          },
+          "proyekPancasila": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
