@@ -1,0 +1,6 @@
+@InputPerkembanganSiswa_HostAddress = http://localhost:5062
+
+GET {{InputPerkembanganSiswa_HostAddress}}/api/inputPerkembangan
+Accept: application/json
+
+###
