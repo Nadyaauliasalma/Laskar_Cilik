@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManajemenAkunGuru", "ManajemenAkunGuru\ManajemenAkunGuru.csproj", "{517554CF-A0A5-437F-802D-730F7AABDC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManajemenAkunGuru.Tests", "ManajemenAkunGuru.Tests\ManajemenAkunGuru.Tests.csproj", "{BA869D01-E5A1-41AF-9689-645E1A418428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{517554CF-A0A5-437F-802D-730F7AABDC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517554CF-A0A5-437F-802D-730F7AABDC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517554CF-A0A5-437F-802D-730F7AABDC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517554CF-A0A5-437F-802D-730F7AABDC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA869D01-E5A1-41AF-9689-645E1A418428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA869D01-E5A1-41AF-9689-645E1A418428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA869D01-E5A1-41AF-9689-645E1A418428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA869D01-E5A1-41AF-9689-645E1A418428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF57B73-EF7F-42E8-BDCB-B0C6839359BA}
+	EndGlobalSection
+EndGlobal
