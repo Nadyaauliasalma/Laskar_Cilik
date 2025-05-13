@@ -70,3 +70,6 @@ E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\obj\Debug\net8.0\refint\Perkembangan
 E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\obj\Debug\net8.0\PerkembanganApi.pdb
 E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\obj\Debug\net8.0\PerkembanganApi.genruntimeconfig.cache
 E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\obj\Debug\net8.0\ref\PerkembanganApi.dll
+E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\bin\Debug\net8.0\SharedModels.dll
+E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\bin\Debug\net8.0\SharedModels.pdb
+E:\KPL-SEMESTER4\Solutionpk\PerkembanganApi\obj\Debug\net8.0\PerkembanganApi.sourcelink.json

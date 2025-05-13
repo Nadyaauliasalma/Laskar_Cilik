@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerkembanganApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41e3f484b875c1dbc1c99ba5ffbac20b97110baa")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerkembanganApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerkembanganApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

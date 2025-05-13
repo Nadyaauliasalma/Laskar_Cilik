@@ -88,6 +88,15 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "SharedModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SharedModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedModels.dll": {}
+        }
       }
     }
   },
@@ -439,10 +448,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "SharedModels/1.0.0": {
+      "type": "project",
+      "path": "../SharedModels/SharedModels.csproj",
+      "msbuildProject": "../SharedModels/SharedModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "SharedModels >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -477,7 +492,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj": {
+              "projectPath": "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

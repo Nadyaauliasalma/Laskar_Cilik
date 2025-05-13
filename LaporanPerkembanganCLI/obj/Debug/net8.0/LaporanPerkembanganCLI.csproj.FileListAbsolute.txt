@@ -56,3 +56,6 @@ E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\runtimes\win
 E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanP.20F66FF2.Up2Date
 E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.genruntimeconfig.cache
 E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\ref\LaporanPerkembanganCLI.dll
+E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\SharedModels.dll
+E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\SharedModels.pdb
+E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.sourcelink.json

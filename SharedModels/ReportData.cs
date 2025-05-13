@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LaporanPerkembanganCLI.Models
+namespace SharedModels
 {
     public class ReportData
     {
@@ -21,5 +21,4 @@ namespace LaporanPerkembanganCLI.Models
         public string SainsTeknologiRekayasa { get; set; } = string.Empty;
         public string ProyekPancasila { get; set; } = string.Empty;
     }
-
 }

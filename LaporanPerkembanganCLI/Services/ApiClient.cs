@@ -1,4 +1,4 @@
-﻿using LaporanPerkembanganCLI.Models;
+﻿using SharedModels;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading.Tasks;

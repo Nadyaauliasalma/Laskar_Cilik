@@ -10,6 +10,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "PDFsharp-GDI": "6.1.1",
+          "SharedModels": "1.0.0",
           "System.Drawing.Common": "6.0.0",
           "iTextSharp": "5.5.13.4"
         },
@@ -199,7 +200,15 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "SharedModels/1.0.0": {
+        "runtime": {
+          "SharedModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -305,6 +314,11 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "SharedModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

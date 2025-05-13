@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PerkembanganApi.Models;
+using SharedModels;
 
 namespace PerkembanganApi.Controllers
 {

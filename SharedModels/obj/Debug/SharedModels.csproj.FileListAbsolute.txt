@@ -1,0 +1,6 @@
+E:\KPL-SEMESTER4\Solutionpk\SharedModels\bin\Debug\SharedModels.dll
+E:\KPL-SEMESTER4\Solutionpk\SharedModels\bin\Debug\SharedModels.pdb
+E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.csproj.AssemblyReference.cache
+E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.csproj.CoreCompileInputs.cache
+E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.dll
+E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.pdb

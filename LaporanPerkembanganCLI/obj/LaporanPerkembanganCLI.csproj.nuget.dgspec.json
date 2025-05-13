@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj": {
+                "projectPath": "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -85,6 +89,22 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj",
+        "projectName": "SharedModels",
+        "projectPath": "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

@@ -315,6 +315,15 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "SharedModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/SharedModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedModels.dll": {}
+        }
       }
     }
   },
@@ -736,12 +745,18 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SharedModels/1.0.0": {
+      "type": "project",
+      "path": "../SharedModels/SharedModels.csproj",
+      "msbuildProject": "../SharedModels/SharedModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Newtonsoft.Json >= 13.0.3",
       "PDFsharp-GDI >= 6.1.1",
+      "SharedModels >= 1.0.0",
       "System.Drawing.Common >= 6.0.0",
       "iTextSharp >= 5.5.13.4"
     ]
@@ -777,7 +792,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj": {
+              "projectPath": "E:\\KPL-SEMESTER4\\Solutionpk\\SharedModels\\SharedModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using LaporanPerkembanganCLI.Models;
+using SharedModels;
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 using PdfSharp.Drawing.Layout;
@@ -63,7 +63,7 @@ namespace LaporanPerkembanganCLI.Services
             doc.Save(filePath);
             doc.Close();
 
-            Console.WriteLine($"\n✅ PDF berhasil dibuat: {Path.GetFullPath(filePath)}");
+            Console.WriteLine($"\n PDF berhasil dibuat: {Path.GetFullPath(filePath)}");
             Console.WriteLine("\nTekan sembarang tombol untuk keluar...");
             Console.ReadKey();
         }
