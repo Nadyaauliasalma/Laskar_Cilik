@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaporanPerkembanganCLI", "L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedModels", "SharedModels\SharedModels.csproj", "{0E4630F5-2BBE-444D-A460-0B11AA2A88D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaporanPerkembanganTests", "LaporanPerkembanganTests\LaporanPerkembanganTests.csproj", "{2682E422-A2BE-43A3-9A2B-E1B71561497A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0E4630F5-2BBE-444D-A460-0B11AA2A88D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4630F5-2BBE-444D-A460-0B11AA2A88D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4630F5-2BBE-444D-A460-0B11AA2A88D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2682E422-A2BE-43A3-9A2B-E1B71561497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2682E422-A2BE-43A3-9A2B-E1B71561497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2682E422-A2BE-43A3-9A2B-E1B71561497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2682E422-A2BE-43A3-9A2B-E1B71561497A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

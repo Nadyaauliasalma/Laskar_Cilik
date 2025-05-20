@@ -4,3 +4,9 @@ E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.csproj.AssemblyR
 E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.csproj.CoreCompileInputs.cache
 E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.dll
 E:\KPL-SEMESTER4\Solutionpk\SharedModels\obj\Debug\SharedModels.pdb
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\SharedModels\bin\Debug\SharedModels.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\SharedModels\bin\Debug\SharedModels.pdb
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\SharedModels\obj\Debug\SharedModels.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\SharedModels\obj\Debug\SharedModels.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\SharedModels\obj\Debug\SharedModels.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\SharedModels\obj\Debug\SharedModels.pdb

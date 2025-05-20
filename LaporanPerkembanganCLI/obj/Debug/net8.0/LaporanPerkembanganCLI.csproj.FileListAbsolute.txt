@@ -59,3 +59,45 @@ E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\ref\LaporanP
 E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\SharedModels.dll
 E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\SharedModels.pdb
 E:\KPL-SEMESTER4\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.sourcelink.json
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\LaporanPerkembanganCLI.exe
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\LaporanPerkembanganCLI.deps.json
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\LaporanPerkembanganCLI.runtimeconfig.json
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\LaporanPerkembanganCLI.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\LaporanPerkembanganCLI.pdb
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\itextsharp.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\PdfSharp-gdi.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\PdfSharp.Charting-gdi.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\PdfSharp.Quality-gdi.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\PdfSharp.Snippets-gdi.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\PdfSharp.System.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\PdfSharp.WPFonts.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\de\PdfSharp-gdi.resources.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\de\PdfSharp.Charting-gdi.resources.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\SharedModels.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\bin\Debug\net8.0\SharedModels.pdb
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.sourcelink.json
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanP.20F66FF2.Up2Date
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\refint\LaporanPerkembanganCLI.dll
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.pdb
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\LaporanPerkembanganCLI.genruntimeconfig.cache
+C:\Users\hp\OneDrive\Documents\Solutionpk (2)\Solutionpk\LaporanPerkembanganCLI\obj\Debug\net8.0\ref\LaporanPerkembanganCLI.dll
