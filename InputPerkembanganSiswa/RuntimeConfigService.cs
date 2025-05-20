@@ -1,35 +1,40 @@
 ﻿using System;
 using System.Text.Json;
 
-public class RuntimeConfigService
+namespace PerkembanganSiswa
 {
-    private const string filePath = "config.json";
-    public RuntimeConfig Config { get; private set; }
 
-    public RuntimeConfigService()
+    public class RuntimeConfigService
     {
-        try
+        private const string filePath = "config.json";
+        public RuntimeConfig Config { get; private set; }
+
+        public RuntimeConfigService()
         {
-            var json = File.ReadAllText(filePath);
-            Config = JsonSerializer.Deserialize<RuntimeConfig>(json);
-        }
-        catch
-        {
-            Config = new RuntimeConfig
+            try
             {
-                MaxKarakterCatatan = 500,
-                MaxKarakterNomorInduk = 6,
-                MaxKarakterPerKategori = new Dictionary<string, int>
+                var json = File.ReadAllText(filePath);
+                Config = JsonSerializer.Deserialize<RuntimeConfig>(json);
+            }
+            catch
+            {
+                Config = new RuntimeConfig
+                {
+                    MaxKarakterCatatan = 500,
+                    MaxKarakterNomorInduk = 6,
+                    MaxKarakterPerKategori = new Dictionary<string, int>
                 {
                     { "NilaiAgama", 200 },
                     { "JatiDiri", 300 },
                     { "LiterasiDanSTEM", 400 },
                     { "ProyekPenguatanPancasila", 350 }
                 }
-            };
+                };
 
-            var json = JsonSerializer.Serialize(Config, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(filePath, json);
+                var json = JsonSerializer.Serialize(Config, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(filePath, json);
+            }
+
         }
 
     }
