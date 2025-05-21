@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Xml.Linq;
-
+using System.Collections.Generic;
+using System.Linq;
 
 namespace PerkembanganSiswa
 {
-
     public class PerkembanganService
     {
         private readonly RuntimeConfigService runtimeConfig;
@@ -31,31 +30,13 @@ namespace PerkembanganSiswa
                 NomorInduk = dto.NomorInduk,
                 Kelas = dto.Kelas,
                 Semester = dto.Semester,
-                TahunAjaran = dto.TahunAjaran
+                TahunAjaran = dto.TahunAjaran,
+                CatatanPerKategori = ValidasiDanEkstrakKategori(dto.Kategori)
             };
-
-            foreach (var prop in dto.Kategori.GetType().GetProperties())
-            {
-                string key = prop.Name;
-                string? value = prop.GetValue(dto.Kategori)?.ToString();
-
-                if (!string.IsNullOrEmpty(value) &&
-                    Enum.TryParse(typeof(KategoriPerkembangan.Kategori), key, true, out var result))
-                {
-                    var kategori = (KategoriPerkembangan.Kategori)result;
-
-                    if (value.Length > runtimeConfig.Config.MaxKarakterCatatan)
-                        throw new Exception($"Catatan untuk kategori {kategori} terlalu panjang");
-
-                    catatan.CatatanPerKategori[kategori] = value;
-                }
-            }
 
             database.Add(catatan);
             return catatan;
         }
-
-        public PerkembanganSiswa? GetById(int id) => database.FirstOrDefault(p => p.Id == id);
 
         public bool Update(int id, InputPerkembanganDto dto)
         {
@@ -67,20 +48,7 @@ namespace PerkembanganSiswa
             existing.Kelas = dto.Kelas;
             existing.Semester = dto.Semester;
             existing.TahunAjaran = dto.TahunAjaran;
-            existing.CatatanPerKategori.Clear();
-
-            foreach (var prop in dto.Kategori.GetType().GetProperties())
-            {
-                string key = prop.Name;
-                string? value = prop.GetValue(dto.Kategori)?.ToString();
-
-                if (!string.IsNullOrEmpty(value) &&
-                    Enum.TryParse(typeof(KategoriPerkembangan.Kategori), key, true, out var result))
-                {
-                    var kategori = (KategoriPerkembangan.Kategori)result;
-                    existing.CatatanPerKategori[kategori] = value;
-                }
-            }
+            existing.CatatanPerKategori = ValidasiDanEkstrakKategori(dto.Kategori);
 
             return true;
         }
@@ -91,7 +59,36 @@ namespace PerkembanganSiswa
             return target != null && database.Remove(target);
         }
 
-        public List<PerkembanganSiswa> GetAll() => database;
-    }
+        public PerkembanganSiswa? GetById(int id) => database.FirstOrDefault(p => p.Id == id);
 
+        public List<PerkembanganSiswa> GetAll() => database;
+
+        private Dictionary<KategoriPerkembangan.Kategori, string> ValidasiDanEkstrakKategori(KategoriPerkembangan kategoriDto)
+        {
+            var hasil = new Dictionary<KategoriPerkembangan.Kategori, string>();
+
+            foreach (var prop in kategoriDto.GetType().GetProperties())
+            {
+                string key = prop.Name;
+                string? value = prop.GetValue(kategoriDto)?.ToString();
+
+                if (!string.IsNullOrEmpty(value) &&
+                    Enum.TryParse(typeof(KategoriPerkembangan.Kategori), key, true, out var result))
+                {
+                    var kategori = (KategoriPerkembangan.Kategori)result;
+
+                    if (runtimeConfig.Config.MaxKarakterPerKategori != null &&
+                        runtimeConfig.Config.MaxKarakterPerKategori.TryGetValue(kategori.ToString(), out int batas))
+                    {
+                        if (value.Length > batas)
+                            throw new Exception($"Catatan untuk kategori {kategori} terlalu panjang (maksimal {batas} karakter).");
+                    }
+
+                    hasil[kategori] = value;
+                }
+            }
+
+            return hasil;
+        }
+    }
 }

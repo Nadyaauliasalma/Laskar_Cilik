@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerkembanganSiswa_Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f8ebcf38ab70c2ee0c1ec00caff920b26416f25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e3cb51e42df48fa66ee52fdc166c7c8f8a89912")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerkembanganSiswa_Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerkembanganSiswa_Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

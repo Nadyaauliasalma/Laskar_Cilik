@@ -20,7 +20,6 @@ namespace PerkembanganSiswa
             {
                 Config = new RuntimeConfig
                 {
-                    MaxKarakterCatatan = 500,
                     MaxKarakterNomorInduk = 6,
                     MaxKarakterPerKategori = new Dictionary<string, int>
                 {

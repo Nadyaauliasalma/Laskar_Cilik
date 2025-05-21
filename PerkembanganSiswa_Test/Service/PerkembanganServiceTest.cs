@@ -135,6 +135,44 @@ namespace PerkembanganSiswa_Test
             service.Post(dto);
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void Post_NomorIndukTerlaluPanjang_ShouldThrowException()
+        {
+            var dto = new InputPerkembanganDto
+            {
+                NamaSiswa = "Test",
+                NomorInduk = "123456789", // panjang lebih dari 6
+                Kelas = "TK A",
+                Semester = 1,
+                TahunAjaran = 2024,
+                Kategori = new KategoriPerkembangan()
+            };
+
+            service.Post(dto);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Post_KategoriTerlaluPanjang_ShouldThrowException()
+        {
+            var panjang = new string('x', 1000); // > batas config
+            var dto = new InputPerkembanganDto
+            {
+                NamaSiswa = "Test",
+                NomorInduk = "123456",
+                Kelas = "TK A",
+                Semester = 1,
+                TahunAjaran = 2024,
+                Kategori = new KategoriPerkembangan
+                {
+                    NilaiAgama = panjang
+                }
+            };
+
+            service.Post(dto);
+        }
+
 
     }
 }
