@@ -34,5 +34,19 @@ namespace LaporanPerkembanganCLI.Services
                 return null;
             }
         }
+
+        public static async Task<List<ReportData>> GetAllReportsAsync()
+        {
+            using HttpClient client = new HttpClient();
+            var response = await client.GetAsync("http://localhost:5212/api/perkembangan");
+
+            if (!response.IsSuccessStatusCode)
+                return new List<ReportData>();
+
+            string json = await response.Content.ReadAsStringAsync();
+            var result = JsonConvert.DeserializeObject<List<ReportData>>(json);
+            return result ?? new List<ReportData>();
+        }
+
     }
 }
